@@ -40,13 +40,15 @@
     html,
     body {
       font-family: 'Montserrat', sans-serif;
-      height: 100%;
+      heightc: 100%;
     }
 
     .main {
 
 
-      background-image: url('assets/img/km.jpg');
+      background-image: url('assets/img/one.jpg');
+      background-color: rgb(124, 25, 124);
+    background-blend-mode: screen multiply;
       background-size: cover;
       background-position: center center;
       background-attachment: fixed;
@@ -72,9 +74,9 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: rgba(20, 20, 20, .65);
+      background: rgba(0, 0, 0, .55);
       z-index: -9
-        /*Moved one position above the -10 */
+        /*Moved one position above the -10 background: rgba(20, 20, 20, .65);*/
     }
   </style>
 
@@ -156,22 +158,30 @@
 
     <div class="container ">
       <div class="row">
-        <div class="col-md-12 ml-auto mr-auto text-left">
-          <div class="jumbotron bg-transparent text-white" style="padding-top: 180px">
-            <h1>Digital music distribution platform for indie artists
+        <div class="col-md-12 ml-auto mr-auto ">
+          <div class="jumbotron bg-transparent text-white text-left" style="padding-top: 200px">
+            <h1>Digital music distribution platform<br> for indie artists
             </h1>
-            <h4> Get your tracks out to record labels, playlists and major streaming platforms<br>
+            <hr>
+            <h4 class="text-left "> Get your tracks out to record labels, playlists and major streaming platforms<br>
               We handle the technical stuff so that you can focus on what's important
 
             </h4>
             <h4></h4>
 
-            <p><a class="btn btn-primary" href="beta">Sign Up</a> or <b><a class="btn-linkm text-white" href="beta">
+            <p><a class="btn btn-primary btn-lg" href="beta">Sign Up</a> or <b><a class="btn-linkm text-white" href="beta">
                   Log
                   in</a></b></p>
 
-
-            <div class="row pt-5">
+<div class="imgs " style="display:inline-block;bottom: 0;">
+    <img src="assets/img/logo-spotify.png" class="p-5" height="64px" class="rounded-circleb">
+    <img src="assets/img/logo-spotify.png"  class="p-5" height="64px" class="rounded-circleb">
+    <img src="assets/img/logo-spotify.png" class="p-5" height="64px" class="rounded-circleb">
+    <img src="assets/img/logo-spotify.png" class="p-5" height="64px" class="rounded-circleb">
+    <img src="assets/img/logo-spotify.png" class="p-5" height="64px" class="rounded-circleb">
+</div>
+            <!--div class="row pt-5 
+            ">
               <div class="col-lg-2 col-sm-2">
                 <img src="assets/img/logo-spotify.png" height="64px" class="rounded-circleb">
               </div>
@@ -190,7 +200,9 @@
               <div class="col-lg-2 col-sm-2">
                 <img src="assets/img/logo-tidal.png" alt="Circle Image" height="64px" class="rounded-circleb">
               </div>
-            </div>
+            </div-->
+
+
           </div>
         </div>
       </div>
@@ -203,22 +215,18 @@
       <div class="row">
         <div class="col-lg-6 col-md-12">
           <h2 class="title">Why choose us</h2>
-          <h5 class="description">
 
-            <i class="now-ui-icons ui-1_simple-add text-primary"></i>
-            Music distribution across itunes, spotify, google play music,tidal + <a href="#">more..</a>
-            <br>
-            <i class="now-ui-icons ui-1_simple-add text-primary"></i>
-            Youtube content id: identify and manage copyrighted content on youtube
-            <br>
-            <i class="now-ui-icons ui-1_simple-add text-primary"></i>
-            Music submission to record labels
-            <br>
-            <i class="now-ui-icons ui-1_simple-add text-primary"></i>
-            Spotify playlist pitches
-            <br>
-            <i class="now-ui-icons ui-1_simple-add text-primary"></i>
-            Analytics and feedback
+          <h5 class="description ">
+            <ul class="text_align-left ">
+              <li> Music distribution across itunes, spotify, google play music,tidal + <a href="#">more..</a></li>
+              <li>Youtube content id: identify and manage copyrighted content on youtube</li>
+              <li>Music submission to record labels</li>
+              <li> Spotify playlist pitches</li>
+              <li>Analytics and feedback</li>
+
+            </ul>
+
+
 
           </h5>
           <!-- <div class="nucleo-container">
@@ -276,9 +284,7 @@
                 Yesterday, as Facebook launched its news reader app Paper, design-focused startup FiftyThree called out
                 Facebook publicly for using their brand name...
               </p>
-              <div class="card-footer text-center">
-                <a href="#pablo" class="btn btn-primary btn-round">Stream this</a>
-              </div>
+              
 
             </div>
           </div>
@@ -296,9 +302,7 @@
                 Yesterday, as Facebook launched its news reader app Paper, design-focused startup FiftyThree called out
                 Facebook publicly for using their brand name...
               </p>
-              <div class="card-footer text-center">
-                <a href="#pablo" class="btn btn-primary btn-round">Read Article</a>
-              </div>
+              
 
             </div>
           </div>
@@ -316,9 +320,7 @@
                 Yesterday, as Facebook launched its news reader app Paper, design-focused startup FiftyThree called out
                 Facebook publicly for using their brand name...
               </p>
-              <div class="card-footer text-center">
-                <a href="#pablo" class="btn btn-primary btn-round">Read Article</a>
-              </div>
+              
 
             </div>
           </div>
@@ -551,7 +553,34 @@
 
       <hr>
 
-
+<!-- Start of Async Drift Code -->
+<script>
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('n5hb2ruc9wuc');
+    </script>
+    <!-- End of Async Drift Code -->
 
       <div class="copyright pull-center">
         Copyright © <script>
