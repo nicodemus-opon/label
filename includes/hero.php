@@ -40,14 +40,7 @@
                         <div class="slide"><img src="assets/img/logo-pandora.png"></div>
                         <div class="slide"><img src="assets/img/logo-youtube.png"></div>
                         <div class="slide"><img src="assets/img/logo-tidal.png"></div>
-                        <div class="slide"><img
-                                src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
-                        <div class="slide"><img
-                                src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg">
-                        </div>
-                        <div class="slide"><img
-                                src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg">
-                        </div>
+                        
                     </section>
 
 
