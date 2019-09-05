@@ -2,7 +2,15 @@
 <html lang="en">
 
 <head>
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Corporation",
+  "name": "RippleTune",
+  "url": "https://www.rippletune.com/",
+  "logo": "https://www.rippletune.com/assets/profile.png"
+}
+</script>
     <meta charset="utf-8" />
     <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="./assets/img/fv.jpg">
@@ -40,7 +48,7 @@
     <style>
     html,
     body {
-        font-family: 'Montserrat', sans-serif;
+
         height: 100%;
     }
 
@@ -69,7 +77,7 @@
     }
 
     .mainn {
-
+        font-family: 'Montserrat', sans-serif;
 
         background-image: url('../assets/img/rapper.jpg');
 

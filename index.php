@@ -229,7 +229,7 @@
                 <div class="col-md-4">
                     <div class="card card-pricing " data-background-color="black">
                         <div class="card-body">
-                            <h5 class="category">Unlimited +</h5>
+                            <h5 class="category">Unlimited plus</h5>
                             <h1 class="card-title">
                                 <small>$</small>
                                 29.99
