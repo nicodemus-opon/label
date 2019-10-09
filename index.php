@@ -3,7 +3,7 @@
 <body class="" style="background: #000000">
 <?php include("includes/navbar.php") ?>
 <?php include("includes/hero.php") ?>
-<div class="section section-nucleo-icons bg-transparent text-white">
+<div class="section section-nucleo-icons bg-transparent text-white " id="how-it-works">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12">
@@ -55,7 +55,7 @@
 </div>
 
 
-<div class="blogs-1" id="blogs-1">
+<div class="blogs-1" id="services">
 
     <div class="container">
         <div class="row">
@@ -160,7 +160,7 @@
 </div>
 
 
-<div class="sectionb bg-transparent">
+<div class="sectionb bg-transparent " id="pricing">
     <div class="">
 
         <div class="container">

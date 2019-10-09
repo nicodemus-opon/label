@@ -22,13 +22,13 @@
       <div class="collapse navbar-collapse" data-nav-imagei="assets/img/blurred-image-1.jpg" data-color="orange">
         <ul class="navbar-nav ml-auto" style="font-weight:500">
           <li class="nav-item">
-            <a class="nav-link  btn-link nav-link-lg" href="">
+            <a class="nav-link  btn-link nav-link-lg" href="../#how-it-works">
 
               <p class=" p-0 m-0" style="font-size: 14px;"> HOW IT WORKS </p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  btn-link nav-link-lg" href="">
+            <a class="nav-link  btn-link nav-link-lg" href="../#services">
 
               <p class=" p-0 m-0" style="font-size: 14px;"> SERVICES </p>
             </a>
@@ -36,7 +36,7 @@
 
 
           <li class="nav-item">
-            <a class="nav-link  btn-link nav-link-lg" href="">
+            <a class="nav-link  btn-link nav-link-lg" href="../#pricing">
 
               <p class=" p-0 m-0" style="font-size: 14px;"> PRICING </p>
             </a>

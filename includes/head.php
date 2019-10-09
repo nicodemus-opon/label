@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="./assets/img/fv.jpg">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Get your music out to  major streaming platforms We handle the technical stuff so that you can focus on what's impor">
+    <meta name="description" content="Get your music out to  major streaming platforms We handle the technical stuff so that you can focus on what's important">
     <title>
         RippleTune | Digital music distribution
     </title>
@@ -41,7 +41,7 @@
 
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="../assets/aos.css" rel="stylesheet" />
-
+    
 
 
     <link href="../assets/css/now-ui-kit.min.css?v=1.2.1" rel="stylesheet" />
